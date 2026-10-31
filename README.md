@@ -1,7 +1,7 @@
 # PFO3 – Rediseño como Sistema Distribuido (Cliente-Servidor)
 
-**Materia:** Programación sobre Redes – IFTS N.º 29  
-**Propuesta Formativa Obligatoria 3**
+**Materia:** Programación sobre Redes – IFTS N° 29  
+**Practica Formativa Obligatoria 3**
 
 ## 1. Objetivo
 
@@ -12,13 +12,13 @@ La entrega diferencia dos alcances:
 - **Diseño de arquitectura distribuida:** diagrama con los componentes indicados por la consigna.
 - **Implementación local:** servidor TCP, cliente de consola y cuatro workers en Python, ejecutados y probados en una computadora.
 
-## 2. Relación con el PFO2
+## 2. Relación con la PFO2
 
-En el PFO2 se desarrolló un servidor con API HTTP mediante Flask, SQLite y un cliente de consola. El PFO3 retoma el modelo cliente-servidor, pero utiliza **sockets TCP** para transmitir tareas y un **pool de hilos** para procesarlas concurrentemente.
+En la PFO2 se desarrolló un servidor con API HTTP mediante Flask, SQLite y un cliente de consola. La PFO3 retoma el modelo cliente-servidor, pero utiliza **sockets TCP** para transmitir tareas y un **pool de hilos** para procesarlas concurrentemente.
 
-No se reutilizan la autenticación, la API Flask ni la base de datos SQLite del PFO2 en esta implementación, porque el foco de la nueva consigna es la recepción y distribución de tareas por sockets.
+No se reutilizan la autenticación, la API Flask ni la base de datos SQLite de la PFO2 en esta implementación, porque el foco de la nueva consigna es la recepción y distribución de tareas por sockets.
 
-[Repositorio del PFO2](https://github.com/NatyBu26/PFO2_Redes)
+[Repositorio de la PFO2](https://github.com/NatyBu26/PFO2_Redes)
 
 ## 3. Archivos del proyecto
 
@@ -167,4 +167,4 @@ La consigna solicita:
 - **Diagrama** del sistema distribuido.
 - **Código del servidor y cliente** en un repositorio de GitHub.
 
-El archivo `pruebas.py`, las capturas y el PDF de documentación se adjuntan como **evidencias complementarias** del funcionamiento; no se presentan como requisitos obligatorios de la consigna.
+El archivo `pruebas.py`, las capturas y el PDF de documentación se adjuntan como **evidencias complementarias** del funcionamiento.

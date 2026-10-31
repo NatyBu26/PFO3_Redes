@@ -1,7 +1,8 @@
+
 # PFO3 – Rediseño como Sistema Distribuido (Cliente-Servidor)
 
 **Materia:** Programación sobre Redes – IFTS N° 29  
-**Practica Formativa Obligatoria 3**
+**Práctica Formativa Obligatoria 3**
 
 ## 1. Objetivo
 
@@ -32,7 +33,6 @@ PFO3_Redes/
 ├── .gitignore
 └── docs/
     ├── diagrama_arquitectura.png
-    ├── diagrama_arquitectura.mmd  (si se guarda el código de Mermaid)
     ├── PFO3_Documentacion_de_pruebas.pdf
     └── capturas/
         ├── 01_servidor_iniciado.png
@@ -106,7 +106,7 @@ El cliente envía una solicitud en formato **JSON**, codificada en UTF-8 y termi
 El servidor responde con otra línea JSON:
 
 ```json
-{"ok":true,"resultado":22,"worker":"Worker_0"}
+{"ok":true,"resultado":22.0,"worker":"Worker_0"}
 ```
 
 El identificador del worker puede variar según la ejecución. Las solicitudes inválidas reciben una respuesta con `"ok":false` y un mensaje de error.
@@ -168,3 +168,4 @@ La consigna solicita:
 - **Código del servidor y cliente** en un repositorio de GitHub.
 
 El archivo `pruebas.py`, las capturas y el PDF de documentación se adjuntan como **evidencias complementarias** del funcionamiento.
+
